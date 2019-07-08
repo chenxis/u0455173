@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrawingPanel\DrawingPanel.csproj" />
+    <ProjectReference Include="..\Explosion\Explosion.csproj" />
+    <ProjectReference Include="..\GameController\GameController.csproj" />
+    <ProjectReference Include="..\NetworkController\NetworkController.csproj" />
+    <ProjectReference Include="..\PlayerPanel\PlayerPanel.csproj" />
+    <ProjectReference Include="..\Player\Player.csproj" />
+    <ProjectReference Include="..\Projectile\Projectile.csproj" />
+    <ProjectReference Include="..\Ship\Ship.csproj" />
+    <ProjectReference Include="..\SpaceWarsClient\SpaceWarsClient.csproj" />
+    <ProjectReference Include="..\Star\Star.csproj" />
+    <ProjectReference Include="..\Vector\Vector2d.csproj" />
+    <ProjectReference Include="..\World\World.csproj" />
+  </ItemGroup>
+
+</Project>

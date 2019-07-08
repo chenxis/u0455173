@@ -1,0 +1,37 @@
+<SpaceSettings>
+  <UniverseSize>750</UniverseSize>
+  <MSPerFrame>16</MSPerFrame>
+  <FramesPerShot>6</FramesPerShot>
+  <RespawnRate>100</RespawnRate>
+  <StartingHitPoints>5</StartingHitPoints>
+  <ProjectileSpeed>15</ProjectileSpeed>
+  <EngineStrength>0.08</EngineStrength>
+  <TurningRate>3.0</TurningRate>
+  <ShipSize>20</ShipSize>
+  <StarSize>35</StarSize>
+  
+  <!-- Extraoption of moving star set to true to activate-->
+  <MovingStars>false</MovingStars>
+ 
+  <Star>
+    <x>0</x>
+    <y>0</y>
+    <mass>0.01</mass>
+  </Star>
+  
+<!-- extra star
+  <Star>
+    <x>100</x>
+    <y>100</y>
+    <mass>0.01</mass>
+  </Star>
+
+  <Star>
+    <x>200</x>
+    <y>200</y>
+    <mass>0.01</mass>
+  </Star>
+
+
+ -->
+</SpaceSettings>
